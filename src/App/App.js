@@ -1,10 +1,17 @@
 import logo from '../logo.svg';
 import './App.css';
+import DibujosComplejosRender from './components/DibujosComplejosRender';
+// import Contador from './components/Contador';
+// import DibujosComplejos from './components/DibujosComplejos';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <DibujosComplejosRender />
+        {/* <DibujosComplejos /> */}
+        {/* <Contador inicio="4" />
+        <Contador inicio="9" /> */}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
