@@ -1,6 +1,7 @@
 import logo from '../logo.svg';
 import './App.css';
-import DibujosComplejosRender from './components/DibujosComplejosRender';
+import PadreDeportes from './components/Deportes/PadreDeportes';
+// import DibujosComplejosRender from './components/Dibujos/DibujosComplejosRender';
 // import Contador from './components/Contador';
 // import DibujosComplejos from './components/DibujosComplejos';
 
@@ -8,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <DibujosComplejosRender />
+        <PadreDeportes />
+        {/* <DibujosComplejosRender /> */}
         {/* <DibujosComplejos /> */}
         {/* <Contador inicio="4" />
         <Contador inicio="9" /> */}
